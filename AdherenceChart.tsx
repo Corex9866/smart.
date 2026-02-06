@@ -10,7 +10,7 @@ import {
   ResponsiveContainer,
   Cell
 } from 'recharts';
-import { AdherenceLog, AdherenceStatus } from '../types';
+import { AdherenceLog, AdherenceStatus } from './types';
 
 interface Props {
   logs: AdherenceLog[];
